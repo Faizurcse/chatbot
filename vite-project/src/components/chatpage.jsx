@@ -52,6 +52,7 @@ const ChatPage = () => {
     <div
       style={{
         display: "flex",
+        width:'100%',
         height: "97vh",
         fontFamily: "Arial, sans-serif",
         backgroundColor: darkMode ? "#1E1E1E" : "#f7f7f7",
@@ -77,7 +78,7 @@ const ChatPage = () => {
             marginBottom: "20px",
           }}
         >
-          <h2 style={{ fontSize: "20px", margin: 0 }}>Chat AI</h2>
+          <h2 style={{ fontSize: "20px", margin: 0 }}>Chat Bot</h2>
           <button
             onClick={toggleDarkMode}
             style={{
