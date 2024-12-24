@@ -23,7 +23,6 @@ const Login = () => {
       padding: "40px",
       maxWidth: "500px",
       textAlign: "center",
-      // boxShadow: "0 8px 20px rgba(0, 0, 0, 0.3)",
       boxShadow: "rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px",
     },
     title: {
@@ -81,13 +80,13 @@ const Login = () => {
         </p>
         <button
           style={{ ...styles.button, ...styles.loginButton }}
-          onClick={() => navigate("/chat")}
+          onClick={() => navigate("/signin")}
         >
           <FaSignInAlt size={20} /> Log In
         </button>
-        {/* <button style={{ ...styles.button, ...styles.signupButton }}>
+        <button style={{ ...styles.button, ...styles.signupButton }}>
           <FaUserPlus size={20} /> Sign Up
-        </button> */}
+        </button>
         <a href="#" style={styles.footerLink}>
           Stay logged out
         </a>
